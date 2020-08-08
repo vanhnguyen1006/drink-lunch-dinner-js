@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		ul,
+		li,
+		ol {
+			list-style: none;
+			text-decoration: none;
+			color: black;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		.pc-layout {
+			width: 1140px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+
+		img {
+			width: 255px;
+			height: 153px;
+			;
+		}
+
+		.row {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		}
+
+		.nav {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.flex-column {
+			flex-direction: column !important;
+		}
+
+		.nav-link {
+			color: black;
+			font-size: 18px;
+			display: block;
+			padding: .5rem 1rem;
+			border-radius: .25rem;
+		}
+
+		.nav-link:hover {
+			background-color: #d65106;
+			color: #fff;
+			transition: all 0.3s;
+		}
+
+		.nav-pills .nav-link.active {
+			background-color: #d65106;
+			color: #fff;
+		}
+		.active {
+			background-color: #d65106;
+			color: #fff;
+		}
+		.heading-title {
+			padding-bottom: 50px;
+    		padding-top: 30px;
+		}
+
+		.gallery-single {
+			position: relative;
+			overflow: hidden;
+			-webkit-box-shadow: 0 0 10px #ccc;
+			box-shadow: 0 0 10px #ccc;
+			margin-bottom: 30px;
+		}
+
+		.why-text {
+			position: absolute;
+			left: 0;
+			bottom: -100%;
+			right: 0;
+			height: 100%;
+			background: rgba(207, 166, 113, 0.9);
+			padding: 12px 12px;
+			-webkit-transition: all .3s ease;
+			transition: all .3s ease;
+		}
+
+		.why-text h4 {
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 500;
+			font-family: 'Rubik', sans-serif;
+		}
+
+		.why-text p {
+			color: #ffffff;
+			font-size: 13px;
+			border-bottom: 1px dashed #fff;
+			margin: 0px;
+			padding-bottom: 15px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+
+		.why-text h5 {
+			font-size: 18px;
+			font-weight: 600;
+			color: #ffffff;
+		}
+
+		.gallery-single.fix:hover .why-text {
+			bottom: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="menu-about">
+		<div class="pc-layout">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Special Menu</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+					</div>
+				</div>
+			</div>
+			<div class="row inner-menu-box">
+				<div class="col-3">
+					<div class="nav flex-column nav-pills">
+						<a href="#" class="nav-link active" id="all" onclick="showAll()">All</a>
+						<a href="#" class="nav-link" id="menu-drinks" onclick="showDrink()">Drinks</a>
+						<a href="#" class="nav-link" id="menu-lunch" onclick="showLunch()">Lunch</a>
+						<a href="#" class="nav-link" id="menu-dinner" onclick="showDinner()">Dinner</a>
+					</div>
+				</div>
+				<div class="col-9">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="./js/script.js"></script>
+
+
+</html>
