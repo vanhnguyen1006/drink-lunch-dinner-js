@@ -110,24 +110,24 @@ function removeActive() {
 
 function showAll() {
     removeActive();
-    document.querySelector('.col-9').innerHTML = drink + lunch + dinner;
+    document.querySelector('.img-menu').innerHTML = drink + lunch + dinner;
     document.querySelector('#all').classList.toggle('active');
 }
 
 function showDrink() {
     removeActive();
-    document.querySelector('.col-9').innerHTML = drink;
+    document.querySelector('.img-menu').innerHTML = drink;
     document.querySelector('#menu-drinks').classList.toggle('active');
 }
 
 function showLunch() {
     removeActive();
-    document.querySelector('.col-9').innerHTML = lunch;
+    document.querySelector('.img-menu').innerHTML = lunch;
     document.querySelector('#menu-lunch').classList.toggle('active');
 }
 
 function showDinner() {
     removeActive();
-    document.querySelector('.col-9').innerHTML = dinner;
+    document.querySelector('.img-menu').innerHTML = dinner;
     document.querySelector('#menu-dinner').classList.toggle('active');
 }
