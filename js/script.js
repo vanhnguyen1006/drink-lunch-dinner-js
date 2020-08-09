@@ -1,5 +1,5 @@
 let drink = `<div class="row menu-drink" id="drinks">
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-01.jpg" class="img-fluid">
         <div class="why-text">
@@ -9,7 +9,7 @@ let drink = `<div class="row menu-drink" id="drinks">
         </div>
     </div>
 </div>
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-02.jpg" class="img-fluid">
         <div class="why-text">
@@ -19,7 +19,7 @@ let drink = `<div class="row menu-drink" id="drinks">
         </div>
     </div>
 </div>
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-03.jpg" class="img-fluid">
         <div class="why-text">
@@ -32,7 +32,7 @@ let drink = `<div class="row menu-drink" id="drinks">
 </div>`;
 
 let lunch = `<div class="row menu-lunch" id="lunch">
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-04.jpg" class="img-fluid">
         <div class="why-text">
@@ -42,7 +42,7 @@ let lunch = `<div class="row menu-lunch" id="lunch">
         </div>
     </div>
 </div>
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-05.jpg" class="img-fluid">
         <div class="why-text">
@@ -52,7 +52,7 @@ let lunch = `<div class="row menu-lunch" id="lunch">
         </div>
     </div>
 </div>
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-06.jpg" class="img-fluid">
         <div class="why-text">
@@ -65,7 +65,7 @@ let lunch = `<div class="row menu-lunch" id="lunch">
 </div>`;
 
 let dinner = `<div class="row menu-dinner" id="dinner">
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-07.jpg" class="img-fluid">
         <div class="why-text">
@@ -75,7 +75,7 @@ let dinner = `<div class="row menu-dinner" id="dinner">
         </div>
     </div>
 </div>
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-08.jpg" class="img-fluid">
         <div class="why-text">
@@ -85,7 +85,7 @@ let dinner = `<div class="row menu-dinner" id="dinner">
         </div>
     </div>
 </div>
-<div class="col-lg-4 col-md-6 special-grid drinks">
+<div class="special-grid drinks">
     <div class="gallery-single fix">
         <img src="img/img-09.jpg" class="img-fluid">
         <div class="why-text">
